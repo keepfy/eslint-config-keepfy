@@ -2,7 +2,6 @@
 
     "name": "eslint-config-keepfy",
     "version": "1.0.0",
-    "private": true,
     "description": "Default coding style for keepfy react+ts projects",
     "repository": "https://github.com/keepfy/eslint-config-keepfy.git",
     "main": "index.js",
