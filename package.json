@@ -4,6 +4,7 @@
     "version": "1.0.0",
     "private": true,
     "description": "Default coding style for keepfy react+ts projects",
+    "repository": "https://github.com/keepfy/eslint-config-keepfy.git",
     "main": "index.js",
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "1.5.0",
