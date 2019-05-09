@@ -147,10 +147,20 @@ module.exports = {
           "nonEmpty": "after-props"
         }
       ],
+      "react/jsx-tag-spacing": ["error",{
+        "beforeSelfClosing": "always"
+      }],
+      "jsx-props-no-multi-spaces": "error",
       "react/prop-types": "off",
       "react/display-name": "off",
-      "react/jsx-boolean-value": "off",
-      "react/jsx-wrap-multilines": "off",
+      "react/jsx-boolean-value": ["error", "never"],
+      "react/jsx-wrap-multilines": ["error", {
+        "assignment": "parens-new-line",
+        "arrow": "parens-new-line",
+        "condition": "parens-new-line",
+        "logical": "parens-new-line",
+        "prop": "parens-new-line"
+      }],
       "react/jsx-curly-spacing": [
         "error",
         {
