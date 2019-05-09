@@ -156,6 +156,7 @@ module.exports = {
       "react/jsx-boolean-value": ["error", "never"],
       "react/jsx-wrap-multilines": ["error", {
         "assignment": "parens-new-line",
+        "arrow": "ignore",
         "condition": "parens-new-line",
         "logical": "parens-new-line",
         "prop": "parens-new-line"
