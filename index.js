@@ -123,6 +123,10 @@ module.exports = {
         "error",
         "single"
       ],
+      "jsx-quotes": [
+        "error",
+        "prefer-single"
+      ],
       "eol-last": [
         "error",
         "always"
