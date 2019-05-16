@@ -14,6 +14,10 @@ module.exports = {
     ],
     "rules": {
       "no-sequences": "error",
+      "multiline-comment-style": [
+          "error",
+          "starred-block"
+      ],
       "spaced-comment": [
         "error",
         "always"
