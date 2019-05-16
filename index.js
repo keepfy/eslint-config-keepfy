@@ -168,7 +168,7 @@ module.exports = {
         "arrow": "ignore",
         "condition": "parens-new-line",
         "logical": "parens-new-line",
-        "prop": "parens-new-line"
+        "prop": "ignore"
       }],
       "react/jsx-curly-spacing": [
         "error",
