@@ -73,7 +73,7 @@ module.exports = {
         {
           "ignoreCase": true,
           "ignoreDeclarationSort": true,
-          "ignoreMemberSort": true,
+          "ignoreMemberSort": false,
           "memberSyntaxSortOrder": [
             "none",
             "all",
@@ -148,6 +148,7 @@ module.exports = {
         "error",
         "always"
       ],
+      "react/jsx-no-bind": "error",
       "react/jsx-closing-bracket-location": [
         1,
         {
