@@ -94,12 +94,6 @@ module.exports = {
         "error",
         4
       ],
-      "no-unused-vars": [
-        "error",
-        {
-          "ignoreRestSiblings": true
-        }
-      ],
       "no-console": [
         "error",
         {
