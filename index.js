@@ -8,8 +8,6 @@ module.exports = {
       "plugin:@typescript-eslint/recommended",
       "plugin:react/recommended",
       "eslint:recommended",
-      "prettier",
-      "prettier/@typescript-eslint",
       "plugin:ramda/recommended"
     ],
     "rules": {
@@ -90,9 +88,13 @@ module.exports = {
       "curly": "error",
       "no-undef": "off",
       "no-case-declarations": "off",
+      "@typescript-eslint/indent": "off",
       "indent": [
         "error",
-        4
+        4,
+        {
+          "SwitchCase": 1
+        }
       ],
       "no-console": [
         "error",
@@ -186,6 +188,16 @@ module.exports = {
           "ignoreRestSiblings": true
         }
       ],
+      "@typescript-eslint/member-delimiter-style": [
+          "error",{
+          "multiline": {
+            "delimiter": "none"
+          },
+          "singleline": {
+            "delimiter": "comma",
+            "requireLast": false
+          }
+        }],
       "@typescript-eslint/no-explicit-any": "error",
       "@typescript-eslint/class-name-casing": "error",
       "@typescript-eslint/member-ordering": [
