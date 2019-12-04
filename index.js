@@ -11,6 +11,7 @@ module.exports = {
       "plugin:ramda/recommended"
     ],
     "rules": {
+      "no-magic-numbers": "error",
       "no-sequences": "error",
       "multiline-comment-style": [
           "error",
@@ -51,7 +52,9 @@ module.exports = {
         "error",
         "as-needed"
       ],
-      "no-bitwise": "error",
+      "no-bitwise": ["error", {
+        "int32Hint": true
+      }],
       "max-classes-per-file": "error",
       "no-duplicate-imports": "error",
       "lines-between-class-members": [
