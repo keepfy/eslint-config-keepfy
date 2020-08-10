@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-keepfy",
-    "version": "7.0.0",
+    "version": "7.0.1",
     "description": "Default coding style for keepfy react+ts projects",
     "repository": "https://github.com/keepfy/eslint-config-keepfy.git",
     "main": "index.js",
@@ -9,11 +9,9 @@
         "@typescript-eslint/parser": "2.4.0",
         "eslint-plugin-import": "2.18.2",
         "eslint-plugin-prefer-arrow": "1.1.6",
-        "eslint-plugin-ramda": "2.5.1",
         "eslint-plugin-react": "7.16.0"
     },
     "peerDependencies": {
-        "eslint": "^6.5.1",
-        "ramda": "^0.26.1"
+        "eslint": "^6.5.1"
     }
 }
