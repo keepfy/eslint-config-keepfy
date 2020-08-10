@@ -7,11 +7,9 @@ module.exports = {
     "extends": [
       "plugin:@typescript-eslint/recommended",
       "plugin:react/recommended",
-      "eslint:recommended",
-      "plugin:ramda/recommended"
+      "eslint:recommended"
     ],
     "rules": {
-      "no-magic-numbers": "error",
       "no-sequences": "error",
       "multiline-comment-style": [
           "error",
@@ -36,8 +34,9 @@ module.exports = {
       "max-lines": [
         "error",
         {
-          "max": 300,
-          "skipBlankLines": true
+          "max": 400,
+          "skipBlankLines": true,
+          "skipComments": true
         }
       ],
       "prefer-const": [
@@ -234,8 +233,7 @@ module.exports = {
     "plugins": [
       "react",
       "prefer-arrow",
-      "@typescript-eslint",
-      "ramda"
+      "@typescript-eslint"
     ],
     "settings": {
       "react": {
